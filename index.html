@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Connectez vous</title>
 </head>
 <body>
-    <p>Bonjour tout le monde</p>
-    <p>Entrainement</p>
+   <main>
+        <fieldset>
+            <p><img src="icone.jpg" alt=""></p>
+            <form action="get" class="formulaire">
+            
+            <p class="labels"><label for="e-mail">Email<sup>*</sup></label></p>
+            <p class="entry"><input type="email" id="e-mail" required placeholder="Email"></p>
+            
+            <p class="labels"> <label for="password">Password<sup>*</sup></label></p>
+            <p class="entry"> <input type="password" id="password" required placeholder="Password"></p>
+           
+            <p class="check"> <input type="checkbox"  value="valider"><label for="valider"> Show password</label></p>
+         
+            <p class="bouton"><input type="submit" value="LOG IN"></p>
+            <p class="lien"><a href="https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&dsh=S638259447%3A1679240482279458&flowEntry=AddSession&flowName=GlifWebSignIn&hl=fr&service=accountsettings&authuser=0">Forgot password?</a></p>
+       
+        </form>
+        </fieldset>
+   </main>
 </body>
 </html>

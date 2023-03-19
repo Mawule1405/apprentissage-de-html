@@ -1,3 +1,73 @@
 html{
-    background-color: aqua;
+    background: rgb(212, 196, 187);
 }
+
+fieldset{
+    border: 5px solid black;
+    width: 2000px;
+    padding-left: 10px;
+}
+
+form{
+    margin-left: 35%;
+}
+
+sup{
+    color: red;
+}
+
+img{
+    border-radius: 200px;
+    width: 300px;
+    margin-left: 50%;
+}
+
+.labels{
+    font-size: 50px;
+    padding-left: 30px;
+    margin-bottom: none;
+   
+}
+
+.entry, .labels{
+    padding-left: 80px;
+    
+}
+
+.entry input{
+    font-size: 40px;
+    width: 1000px;
+    height: 100px;
+}
+
+.check{
+    font-size: 70px;
+    padding-left: 30px;
+   
+}
+.check input{
+    width: 200px;
+    height: 100px;
+    background: black;
+}
+.check label{
+    text-align: center;
+    
+    padding-top: none;
+}
+
+.bouton{
+    margin-left: 80px;
+}
+.bouton input{
+    width: 1000px;
+    height: 100px;
+    font-size: 70px;
+}
+.lien{
+    margin-left: 17%;
+    font-size: 70px;
+}
+
+
+
